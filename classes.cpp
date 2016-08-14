@@ -12,7 +12,7 @@ bool Users::updatepassword()
 		cout<<"RENTER YOUR PASSWORD"<<endl;    
 		string reenterpass;
 		cin>>reenterpass;
-		if(reenterpass==newpassword)			//To check that the user enters the same password twice
+		if(reenterpass==newpassword)			
 		{
 			fstream fin("customers.txt",ios::in);
 			fstream fout("temp.txt",ios::out);
